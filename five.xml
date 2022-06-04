@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote     name="lineage"  
+                fetch="https://github.com/LineageOS"           
+                revision="cm-12.1" >
+
+    <!--Trees-->
+        <project path="device/oppo/neo5" name="android_device_oppo_neo5" remote="lineage">
+        <project path="device/oppo/common" name="android_device_oppo_common" remote="lineage">
+        <project path="kernel/oppo/neo5" name="Meghthedev/android_kernel_oppo_neo5" remote="github">
+            
+</manifest>    
